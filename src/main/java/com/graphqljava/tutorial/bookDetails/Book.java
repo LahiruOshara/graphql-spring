@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Book {
 
-    private String id;
-    private String authorId;
+    private final String id;
+    private final String authorId;
 
     public Book(String id, String name, int pageCount, String authorId) {
         this.id = id;
