@@ -7,10 +7,14 @@ public class Book {
 
     private final String id;
     private final String authorId;
+    private final String name;
+    private final int pageCount;
 
-    public Book(String id, String authorId) {
+    public Book(String id, String name, int pageCount, String authorId) {
         this.id = id;
         this.authorId = authorId;
+        this.name = name;
+        this.pageCount = pageCount;
     }
 
 //    hard coded list
