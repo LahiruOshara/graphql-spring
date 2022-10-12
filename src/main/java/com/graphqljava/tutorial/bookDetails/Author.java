@@ -9,6 +9,7 @@ public class Author {
     private String firstName;
     private String lastName;
 
+//    hard coded list
     public Author(String id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;

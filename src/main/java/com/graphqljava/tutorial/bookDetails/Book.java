@@ -13,6 +13,7 @@ public class Book {
         this.authorId = authorId;
     }
 
+//    hard coded list
     private static List<Book> books = Arrays.asList(
             new Book("book-1", "Harry Potter and the Philosopher's Stone", 223, "author-1"),
             new Book("book-2", "Moby Dick", 635, "author-2"),
