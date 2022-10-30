@@ -13,7 +13,7 @@ public class Book {
         this.authorId = authorId;
     }
 
-//    hard coded list
+//  hard coded list of books
     private static final List<Book> books = Arrays.asList(
             new Book("book-1", "author-1"),
             new Book("book-2", "author-2"),
