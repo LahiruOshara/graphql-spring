@@ -6,14 +6,10 @@ import java.util.List;
 public class Author {
 
     private String id;
-    private String firstName;
-    private String lastName;
 
-//    hard coded list
+    // hard coded list
     public Author(String id, String firstName, String lastName) {
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
     }
 
     private static List<Author> authors = Arrays.asList(
